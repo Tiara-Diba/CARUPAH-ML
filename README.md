@@ -5,8 +5,9 @@ This is a repository for C23-PS062 Machine Learning
 Carupah is an application that allows users to detect types of waste, interact with chatbots, and get information about the nearest waste bank. There are two machine-learning implementations in this application image detection and chatbot. Image detection helps users classify the type and type of waste, while the chatbot feature functions as knowledge management.
 
 ### Image Detection
+We build image detection with classification method. 
 #### 1. Setup the Data
-   
+
 #### 3. Data Preprocessing
 #### 4. Build a Model
 #### 5. Save Model
@@ -44,3 +45,11 @@ Create function for:
 - Get the appropriate response based on the intent predicted by the model
 #### 8. Testing
 Create a function for chatbot flow to interact with the chatbot and get answers to questions based on user intent.
+
+## Contributor
+1. Irfan Kamal (Machine Learning Engineer)
+2. Jonathan Henock Alexander Manik (Machine Learning Engineer)
+3. Tiara Diba (Machine Learning Engineer)
+4. Delliana Putri Salsabila (Cloud Computing Engineer)
+5. Husna Fadillah Rahman (Cloud Computing Engineer)
+6. Raihan Fadhlal Aziz (Android Engineer)
