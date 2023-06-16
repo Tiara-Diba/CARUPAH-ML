@@ -19,8 +19,8 @@ Chatbot in Carupah Application named CarupAI. It is built with Natural Language 
 Get datasets stored in Google Drive using the request library and decodes byte content into a string.
 #### 3. Data Preprocessing
 Using Natural Language Tool Kit library 
-- Tokenization: Dividing text into smaller units called tokens in the form of words, phrases, or symbols.
-- Lemmatization: Converting words to their basic form called a root word.
+- Tokenization: Dividing text into smaller units called tokens in the form of words, phrases, or symbols using punkt package.
+- Lemmatization: Converting words to their basic form called a root word using wordnet package.
 #### 4. Build a Model
 We use the Keras library to build and train the Natural Language Processing neural network model with TensorFlow as the backend.
 - Sequential Model: Builds the model sequentially, where each layer is added one by one in order
