@@ -38,7 +38,7 @@ Save the trained model into a file with HDF5 format.
 - Load model HDF5
 #### 7. Testing Preparation
 Create function for:
-- Cleaning input sentences
+- Cleaning input sentences (Tokenization & Lemmatization)
 - Converts the input sentence into a bag of words vector representation
 - Prediction of classes or intents based on input sentences using trained models
 - Get the appropriate response based on the intent predicted by the model
