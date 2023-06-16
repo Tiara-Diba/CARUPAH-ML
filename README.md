@@ -28,7 +28,11 @@ We use the Keras library to build and train the Natural Language Processing neur
 - Dropout: Prevent overfitting
 - Activation: Introduces non-linearities that are necessary for modeling complex data
 - SGD (Stochastic Gradient Descent) as a optimizer
+#### 5. Train Model
+The fit() method is used to initialize the training of the model with the given training data.
 #### 5. Save Model
+Save the trained model into a file with HDF5 format. 
+The saved model will include the model architecture as well as the weights that have been updated during training.
 #### 6. Load Sources
 #### 7. Testing Preparation
 #### 8. Testing
