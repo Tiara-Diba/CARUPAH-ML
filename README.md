@@ -45,3 +45,11 @@ Create function for:
 - Get the appropriate response based on the intent predicted by the model
 #### 8. Testing
 Create a function for chatbot flow to interact with the chatbot and get answers to questions based on user intent.
+
+##Contributor
+1. Irfan Kamal (Machine Learning Engineer)
+2. Jonathan Henock Alexander Manik (Machine Learning Engineer)
+3. Tiara Diba (Machine Learning Engineer)
+4. Delliana Putri Salsabila (Cloud Computing Engineer)
+5. Husna Fadillah Rahman (Cloud Computing Engineer)
+6. Raihan Fadhlal Aziz (Android Engineer)
