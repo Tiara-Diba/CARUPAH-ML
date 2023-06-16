@@ -45,23 +45,26 @@ We use the Keras library to build and train the Natural Language Processing neur
 - Dense Layer: Adding representation capacity to the model
 - Dropout Layer: Prevent overfitting
 - Activation Layer: Introduces non-linearities that are necessary for modeling complex data
-- SGD (Stochastic Gradient Descent) as a optimizer
+- SGD (Stochastic Gradient Descent) as an optimizer
 #### 5. Train Model
 The fit() method is used to initialize the training of the model with the given training data.
-#### 5. Save Model
-Save the trained model into a file with HDF5 format. 
-#### 6. Load Sources
+#### 6. Visualize Loss and Accuracy
+Visualize the change in loss and accuracy at each epoch of model training to analyze model performance, identify overfitting or underfitting, and monitor training progress.
+#### 7. Save Model
+Save the trained model into a file in HDF5 format. 
+#### 8. Load Sources
 - Load dataset
 - Load a previously saved object in a pickle file
 - Load model HDF5
-#### 7. Testing Preparation
+#### 9. Testing Preparation
 Create function for:
 - Cleaning input sentences (Tokenization & Lemmatization)
 - Converts the input sentence into a bag of words vector representation
 - Prediction of classes or intents based on input sentences using trained models
 - Get the appropriate response based on the intent predicted by the model
-#### 8. Testing
+#### 10. Testing
 Create a function for chatbot flow to interact with the chatbot and get answers to questions based on user intent.
+#### 11. Convert the model to TensorFlow.js
 
 ## Contributor
 1. Irfan Kamal (Machine Learning Engineer)
