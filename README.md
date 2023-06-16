@@ -23,16 +23,24 @@ Using Natural Language Tool Kit library
 - Lemmatization: Converting words to their basic form called a root word.
 #### 4. Build a Model
 We use the Keras library to build and train the Natural Language Processing neural network model with TensorFlow as the backend.
-- Sequential: Builds the model sequentially, where each layer is added one by one in order
-- Dense: Adding representation capacity to the model
-- Dropout: Prevent overfitting
-- Activation: Introduces non-linearities that are necessary for modeling complex data
+- Sequential Model: Builds the model sequentially, where each layer is added one by one in order
+- Dense Layer: Adding representation capacity to the model
+- Dropout Layer: Prevent overfitting
+- Activation Layer: Introduces non-linearities that are necessary for modeling complex data
 - SGD (Stochastic Gradient Descent) as a optimizer
 #### 5. Train Model
 The fit() method is used to initialize the training of the model with the given training data.
 #### 5. Save Model
 Save the trained model into a file with HDF5 format. 
-The saved model will include the model architecture as well as the weights that have been updated during training.
 #### 6. Load Sources
+- Load dataset
+- Load a previously saved object in a pickle file
+- Load model HDF5
 #### 7. Testing Preparation
+Create function for:
+- Cleaning input sentences
+- Converts the input sentence into a bag of words vector representation
+- Prediction of classes or intents based on input sentences using trained models
+- Get the appropriate response based on the intent predicted by the model
 #### 8. Testing
+Create a function for chatbot flow to interact with the chatbot and get answers to questions based on user intent.
