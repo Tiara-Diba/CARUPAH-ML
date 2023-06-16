@@ -14,7 +14,7 @@ Carupah is an application that allows users to detect types of waste, interact w
 
 
 ### Chatbot
-Chatbot in Carupah Application named CarupAI. It is built with Natural Language Processing with the TensorFlow framework. We created our own dataset in JSON format. 
+Chatbot in Carupah Application named CarupAI. It is built with Natural Language Processing with the TensorFlow framework. We created our own dataset in JSON format and saved it to Google Drive. 
 #### 1. Setup the Data
    
 #### 3. Data Preprocessing
