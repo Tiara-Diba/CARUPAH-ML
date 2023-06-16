@@ -7,7 +7,7 @@ Carupah is an application that allows users to detect types of waste, interact w
 ### Image Detection
 We build image detection with classification method. 
 #### 1. Setup the Data
-   
+
 #### 3. Data Preprocessing
 #### 4. Build a Model
 #### 5. Save Model
